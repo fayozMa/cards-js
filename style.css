@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+li::marker{
+    display: none;
+}
+body{
+    background-color:rgb(249, 243, 235);
+}
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+li{
+    width: 420px;
+    height: 700px;
+    margin-top: 60px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    transition: all ease 550ms;
+}
+li:hover{
+    box-shadow: 1px 8px 20px grey;
+}
+.productImg{
+    width: 420px;
+    height: 300px;
+    border-radius: 15px;
+}
+.productBrand{
+    font-size: 51px;
+    margin-top: 20px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(33, 31, 31);
+}
+.productTitle{
+    font-size: 21px;
+    padding-left: 16px;
+    font-weight: bold;
+    color: rgb(33, 31, 31);
+}
+.productCategory{
+    color: cornflowerblue;
+    padding-left: 16px;
+    margin-top: 8px;
+}
+.productPrice{
+    padding-left: 16px;
+    font-size: large;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.productDiscount{
+    color: red;
+    font-weight: bold;
+    padding-left: 16px;
+}
+.productStock{
+    padding-left: 16px;
+    margin-top: 8px;
+}
+.productDescription{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 100px;
+}
