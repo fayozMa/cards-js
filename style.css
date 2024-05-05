@@ -60,7 +60,6 @@ ol{
 }
 li{
     width: 420px;
-    height: 700px;
     margin-top: 60px;
     background-color: antiquewhite;
     border-radius: 10px;
@@ -111,5 +110,39 @@ li:hover{
 .productDescription{
     padding-left: 16px;
     padding-right: 16px;
-    margin-top: 100px;
+    margin-top: 30px;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 16px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+.btns button{
+    border-radius: 12px;
+    transition: all ease-in-out 600ms;
+    padding: 16px;
+    font-weight: bold;
+}
+.btns button:hover{
+    box-shadow: 1px 8px 20px grey;
+}
+.like_btn{
+    background-color: transparent;
+    color: rgb(237, 68, 68);
+    border: 2px solid rgb(237, 68, 68);
+}
+.like_btn:hover{
+    background-color: rgb(237, 68, 68);
+    color: white;
+}
+.buy_btn{
+    color: black;
+    background-color: transparent;
+}
+.buy_btn:hover{
+    color: white;
+    background-color: black;
 }
